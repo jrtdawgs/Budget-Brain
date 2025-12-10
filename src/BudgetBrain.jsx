@@ -210,7 +210,7 @@ If unreadable, respond: []` }
               <p style={styles.dropText}>Drop your screenshot here</p>
               <p style={styles.dropSubtext}>or</p>
               <label style={styles.uploadBtn}>
-                <input type="file" accept="image/*" capture="environment" onChange={handleImageUpload} style={{display:'none'}}/>
+                <input type="file" accept="image/*" onChange={handleImageUpload} style={{display:'none'}}/>
                 Choose Image
               </label>
             </div>
